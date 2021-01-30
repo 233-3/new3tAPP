@@ -1,6 +1,7 @@
 const install = (Vue, vm) => {
 	Vue.prototype.$u.http.setConfig({
-		baseUrl: 'http://192.168.2.101/', // 请求的本域名
+		// baseUrl: 'http://test.zzxiaoyi.com/', // 请求的本域名
+		baseUrl: 'http://192.168.2.102/', // 请求的本域名
 		dataType: 'json',
 		showLoading: true, // 是否显示请求中的loading
 		loadingText: '请求中...', // 请求loading中的文字提示
